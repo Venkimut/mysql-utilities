@@ -1,45 +1,12 @@
-# Tmp files
-~*
+# IDE Files
+#-------------------------
+/nbproject/
+.idea/*
 
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
+## Sublime Text cache files
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
 
-# C extensions
-*.so
-
-# Connector python files
-mysql/connector
-
-# Distribution / packaging
-*.egg-info
-dist/
-build/
-MANIFEST
-
-# Unit test / coverage reports
-htmlcov/
-.tox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-
-# OSX and Pycharm
-.DS_Store
-.idea/
-
-# Patch files
-*.patch
-*.diff
-
-# Reject files from MUT
-*.reject
-
-# Eclipse and PyDev project files
-.project
-.pydevproject
-
-# Result file used by some MUT tests
-mysql-test/result.txt
